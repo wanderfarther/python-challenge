@@ -1,6 +1,6 @@
 F i n a n c i a l " " A n a l y s i s
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-"Total Months: " 86
+( ' T o t a l " " M o n t h s : " " ' , " " 8 6 )
 "Total: $" 22564198
 "Average Change: $" -8311.105882352942
 "Greatest Increase in Profits: " Aug-16 ($ 1862002.0 )

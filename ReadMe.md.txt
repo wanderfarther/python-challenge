@@ -1,6 +1,9 @@
 I struggled to understand data types and this url helped me a lot
 https://realpython.com/python-data-types/
 
+This helped me write and save a new csv file.
+https://www.pythontutorial.net/python-basics/python-write-csv-file/
+
 I used this to find the mathmatical calulations of change of profit/lose over a period of time and the average...
 https://discuss.codecademy.com/t/defining-variable/338025/2
 

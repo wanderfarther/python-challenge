@@ -50,9 +50,11 @@ line_8 = ("-------------------------", )
 line_9 = ("Winner: ", winner)
 line_10 = ("-------------------------", )
 
+
+
 'Writing and exporting the new csv file'
-with open("Resources\\Analysis\\winner_file.csv", 'w') as file:
-    writer = csv.writer(file, dialect='excel', delimiter = ' ')
+with open("Resources\\Analysis\\winner_file.txt", 'w') as file:
+    writer = csv.writer(file, delimiter = ' ')
     writer.writerow(line_1)
     writer.writerow(line_2)
     writer.writerow(line_3)

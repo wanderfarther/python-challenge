@@ -83,11 +83,11 @@ ave_change = "Average Change: $", pl_average
 increase = "Greatest Increase in Profits: ", max_month_index, "($",max_increase,")"
 decrease = "Greatest Decrease in Profits: ", min_month_index, "($",min_increase,")"
 
-with open("Resources\\Analysis\\fin_analysis.csv", 'w') as file:
-    writer = csv.writer(file, dialect='excel', delimiter = ' ')
+with open("Resources\\Analysis\\fin_analysis.txt", 'w') as file:
+    writer = csv.writer(file, delimiter = ' ')
     writer.writerow("Financial Analysis")
     writer.writerow("----------------------------")
-    writer.writerow(total_months)
+    writer.writerow(str(total_months))
     writer.writerow(total_money)
     writer.writerow(ave_change)
     writer.writerow(increase)
