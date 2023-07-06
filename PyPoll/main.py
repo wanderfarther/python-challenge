@@ -3,7 +3,7 @@ import os
 import csv
 
 'Import the files to be analysed'
-path = "C:\\Users\\morga\\Documents\\Analysis Projects\\Week 3\\python-challenge\\Resources\\PyPoll\\"
+path = "C:\\Users\\morga\\Documents\\Analysis Projects\\Week 3\\python-challenge\\PyPoll\\Resources"
 file_name = "election_data.csv"
 
 file_path = os.path.join(path, file_name)
@@ -53,7 +53,7 @@ line_10 = ("-------------------------", )
 
 
 'Writing and exporting the new csv file'
-with open("Resources\\Analysis\\winner_file.txt", 'w') as file:
+with open("Analysis\\winner_file.txt", 'w') as file:
     writer = csv.writer(file, delimiter = ' ')
     writer.writerow(line_1)
     writer.writerow(line_2)

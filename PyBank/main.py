@@ -3,7 +3,7 @@ import os
 import csv
 
 'Import the files to be analysed'
-path = "C:\\Users\\morga\\Documents\\Analysis Projects\\Week 3\\python-challenge\\Resources\\PyBank\\"
+path = "C:\\Users\\morga\\Documents\\Analysis Projects\\Week 3\\python-challenge\\PyBank\\Resources\\"
 file_name = "budget_data.csv"
 
 file_path = os.path.join(path, file_name)
@@ -83,11 +83,11 @@ ave_change = "Average Change: $", pl_average
 increase = "Greatest Increase in Profits: ", max_month_index, "($",max_increase,")"
 decrease = "Greatest Decrease in Profits: ", min_month_index, "($",min_increase,")"
 
-with open("Resources\\Analysis\\fin_analysis.txt", 'w') as file:
+with open("Analysis\\fin_analysis.txt", 'w') as file:
     writer = csv.writer(file, delimiter = ' ')
     writer.writerow("Financial Analysis")
     writer.writerow("----------------------------")
-    writer.writerow(str(total_months))
+    writer.writerow(total_months)
     writer.writerow(total_money)
     writer.writerow(ave_change)
     writer.writerow(increase)
